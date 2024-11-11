@@ -1,0 +1,123 @@
+{
+    "meta": {
+      "title": "Women.Training - Empowering Women Through Fitness",
+      "description": "Empowering women through fitness with personalized training and comprehensive programs."
+    },
+    "home": {
+      "welcome": "Welcome to Women.Training",
+      "title": "Empowering <span class='text-purple-500'>Women</span> Through <span class='text-purple-500'>Fitness</span>",
+      "description": "Join our community and start your fitness journey today."
+    },
+    "programs": {
+      "title": "Our Programs",
+      "description": "Choose a program that suits your needs",
+      "items": [
+        {
+          "title": "Fitness Program",
+          "description": "Our comprehensive fitness program designed to help you achieve your personal fitness goals.",
+          "gradient": "from-pink-500 to-purple-500"
+        },
+        {
+          "title": "Fit & Healthy",
+          "description": "Maintain a balanced and healthy lifestyle with our Fit & Healthy program.",
+          "gradient": "from-yellow-400 to-red-500"
+        },
+        {
+          "title": "Muscle Building",
+          "description": "Build and tone muscles with our targeted muscle building program.",
+          "gradient": "from-green-400 to-teal-500"
+        }
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "We offer a range of services to support your fitness journey",
+      "items": [
+        {
+          "title": "Free Lesson",
+          "description": "Sign up for a free lesson and start your fitness journey with us."
+        },
+        {
+          "title": "Personal Training",
+          "description": "Get personalized training sessions with our expert coaches."
+        },
+        {
+          "title": "Nutrition Advice",
+          "description": "Receive tailored nutrition advice to complement your training."
+        }
+      ]
+    },
+    "schedule": {
+      "title": "Training Schedule",
+      "description": "Join our sessions led by experienced trainers",
+      "days": {
+        "Monday": [
+          {
+            "time": "08:00AM - 10:00AM",
+            "title": "Basic Exercise",
+            "description": "A comprehensive workout to start your week.",
+            "coach": "Anthony Miller",
+            "position": "Cardio Expert",
+            "video": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          },
+          {
+            "time": "10:00AM - 11:00AM",
+            "title": "Yoga Program",
+            "description": "A calming yoga session to increase flexibility.",
+            "coach": "Philly Aime",
+            "position": "Yoga Instructor",
+            "video": "https://www.youtube.com/embed/v7AYKMP6rOE"
+          }
+        ]
+      }
+    },
+    "about": {
+      "title": "About Women.Training",
+      "description1": "Women.Training is dedicated to empowering women through fitness. We believe in providing a supportive and inclusive community where women of all fitness levels can thrive. Our expert coaches and comprehensive programs are designed to help you achieve your personal fitness goals and maintain a healthy lifestyle.",
+      "description2": "Our mission is to inspire and motivate women to take charge of their health and wellness. Join us today and be part of a community that celebrates every step of your fitness journey."
+    },
+    "coaches": {
+      "title": "Our Coaches",
+      "description": "Meet our team of expert coaches",
+      "items": [
+        {
+          "name": "Rainey",
+          "position": "Owner/Head Coach",
+          "image": "images/trainer-1.jpg",
+          "social": [
+            { "platform": "twitter", "url": "#" },
+            { "platform": "facebook", "url": "#" },
+            { "platform": "google-plus", "url": "#" },
+            { "platform": "instagram", "url": "#" }
+          ]
+        }
+      ]
+    },
+    "blog": {
+      "title": "Our Blog",
+      "description": "Stay updated with our latest tips and stories",
+      "posts": [
+        {
+          "date": "April 04, 2019",
+          "title": "Find a Fitness Buddy",
+          "description": "Connect with someone who'll be there for your ups and downs.",
+          "image": "images/image_1.jpg",
+          "link": "blog-1.html"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Get in touch with us",
+      "address": "Worldwide",
+      "number": "+1 800 123 456",
+      "email": "info@women.training",
+      "website": "http://women.training",
+      "social": [
+        { "platform": "twitter", "url": "#" },
+        { "platform": "facebook", "url": "#" },
+        { "platform": "instagram", "url": "#" }
+      ]
+    }
+  }
+  

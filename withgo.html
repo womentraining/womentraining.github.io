@@ -1,77 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Women.Training - Empowering Women Through Fitness</title>
+  <title>WomenTraining - Empowering Women Through Fitness</title>
   <meta charset="utf-8">
-  <meta name="description" content="Empowering women through fitness with personalized training and comprehensive programs.">
-  <meta name="keywords" content="fitness, women, training, health, exercise">
-  <meta name="author" content="Women.Training">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Schema.org for Google -->
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "Women.Training",
-    "url": "http://women.training/",
-    "logo": "http://women.training/images/logo.png",
-    "sameAs": [
-      "http://www.facebook.com/womentraining",
-      "http://www.twitter.com/womentraining",
-      "http://www.instagram.com/womentraining"
-    ]
-  }
-  </script>
-
-  <!-- Open Graph for Facebook -->
-  <meta property="og:title" content="Women.Training - Empowering Women Through Fitness">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://women.training/">
-  <meta property="og:image" content="images/logo.png">
-  <meta property="og:description" content="Empowering women through fitness with personalized training and comprehensive programs.">
-  <meta property="og:site_name" content="Women.Training">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Women.Training - Empowering Women Through Fitness">
-  <meta name="twitter:description" content="Empowering women through fitness with personalized training and comprehensive programs.">
-  <meta name="twitter:image" content="images/logo.png">
-
-  <!-- Tailwind CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-
-  <meta charset="utf-8">
-  <meta name="description" content="Empowering women through fitness with personalized training and comprehensive programs.">
-  <meta name="keywords" content="fitness, women, training, health, exercise">
-  <meta name="author" content="Women.Training">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.10.0/lucide.min.css">
   <style>
     .active-day {
       background-color: #4c51bf;
       color: #fff !important;
-    }
-    .icon {
-      width: 24px;
-      height: 24px;
     }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-900">
   <nav class="bg-purple-700 p-4">
     <div class="container mx-auto flex justify-between items-center">
-      <a class="text-white text-2xl font-bold" href="index.html">Women.Training</a>
+      <a class="text-white text-2xl font-bold" href="index.html">WomenTraining</a>
       <ul class="flex space-x-4">
-        <li><button class="text-white">Home</button></li>
-        <li><button class="text-white">Programs</button></li>
-        <li><button class="text-white">Services</button></li>
-        <li><button class="text-white">Schedule</button></li>
-        <li><button class="text-white">About</button></li>
-        <li><button class="text-white">Coaches</button></li>
-        <li><button class="text-white">Blog</button></li>
-        <li><button class="text-white">Contact</button></li>
+        <li><a href="#home-section" class="text-white">Home</a></li>
+        <li><a href="#programs-section" class="text-white">Programs</a></li>
+        <li><a href="#services-section" class="text-white">Services</a></li>
+        <li><a href="#schedule-section" class="text-white">Schedule</a></li>
+        <li><a href="#planner-section" class="text-white">Planner</a></li>
+        <li><a href="#about-section" class="text-white">About</a></li>
+        <li><a href="#coaches-section" class="text-white">Coaches</a></li>
+        <li><a href="#blog-section" class="text-white">Blog</a></li>
+        <li><a href="#contact-section" class="text-white">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -79,12 +33,11 @@
   <section id="home-section" class="h-screen bg-cover bg-center" style="background-image: url('images/bg_1.jpg');">
     <div class="h-full flex items-center justify-center bg-black bg-opacity-50">
       <div class="text-center text-white px-4">
-        <span class="text-lg block">Welcome to Women.Training</span>
+        <span class="text-lg block">Welcome to WomenTraining</span>
         <h1 class="text-5xl font-bold mt-3">Empowering <span class="text-purple-500">Women</span> Through <span class="text-purple-500">Fitness</span></h1>
         <p class="mt-4 text-xl">Join our community and start your fitness journey today.</p>
         <div class="mt-6">
           <a href="https://join.slack.com/t/womentraining/shared_invite/enQtOTU4Mzc4MDQxNzQ1LTc0ZmM4MTAwMDk3MWIwZjViNmMyYTgyNTBjNWU0NDUyOTJlNzI1NTMxMjAwZjM4YTJlMDkzYmNjYTU0MjA4NjQ" class="bg-purple-500 hover:bg-purple-600 text-white py-3 px-6 rounded-full">Join Us</a>
-          <button class="bg-gray-600 hover:bg-gray-700 text-white py-3 px-6 rounded-full ml-3" onclick="TogetherJS(this); return false;">Collaborate Now</button>
         </div>
       </div>
     </div>
@@ -156,6 +109,74 @@
       </div>
     </div>
   </section>
+  <section id="planner-section" class="py-12 bg-white">
+    <div class="container mx-auto">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold">Workout Planner</h2>
+        <p class="text-gray-600">Create your custom workout plan</p>
+      </div>
+      <div class="bg-gray-100 rounded-lg p-6 shadow-md">
+        <form id="workoutForm" class="space-y-4">
+          <div>
+            <label for="workoutName" class="block text-sm font-medium text-gray-700 mb-1">Workout Name</label>
+            <input type="text" id="workoutName" name="workoutName" required
+                   class="block w-full py-2 px-3 rounded-md border-gray-300 shadow-sm focus:ring-purple-500 focus:border-purple-500"
+                   placeholder="Enter workout name">
+          </div>
+          <div>
+            <label for="workoutDuration" class="block text-sm font-medium text-gray-700 mb-1">Workout Duration (minutes)</label>
+            <input type="number" id="workoutDuration" name="workoutDuration" required min="5" max="120"
+                   class="block w-full py-2 px-3 rounded-md border-gray-300 shadow-sm focus:ring-purple-500 focus:border-purple-500"
+                   placeholder="Enter workout duration">
+          </div>
+          <button type="submit" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out w-full">
+            Create Workout Plan
+          </button>
+        </form>
+        <div id="workoutResult" class="mt-6 hidden">
+          <h3 class="text-xl font-semibold mb-3 text-gray-800">Your Custom Workout Plan</h3>
+          <ul id="workoutList" class="space-y-2 mb-4"></ul>
+          <button onclick="addWorkoutToPlanner()" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out w-full">
+            Add Workout to Planner
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="planner-section" class="py-12 bg-white">
+    <div class="container mx-auto">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold">Workout Planner</h2>
+        <p class="text-gray-600">Create and manage your custom workouts</p>
+      </div>
+      <div class="bg-gray-100 rounded-lg p-6 shadow-md">
+        <form id="workoutForm" class="space-y-4">
+          <div>
+            <label for="workoutName" class="block text-sm font-medium text-gray-700 mb-1">Workout Name</label>
+            <input type="text" id="workoutName" name="workoutName" required
+                   class="block w-full py-2 px-3 rounded-md border-gray-300 shadow-sm focus:ring-purple-500 focus:border-purple-500"
+                   placeholder="Enter workout name">
+          </div>
+          <div>
+            <label for="exerciseCount" class="block text-sm font-medium text-gray-700 mb-1">Number of Exercises</label>
+            <input type="number" id="exerciseCount" name="exerciseCount" required min="1"
+                   class="block w-full py-2 px-3 rounded-md border-gray-300 shadow-sm focus:ring-purple-500 focus:border-purple-500"
+                   placeholder="Enter number of exercises">
+          </div>
+          <button type="submit" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out w-full">
+            Create Workout
+          </button>
+        </form>
+        <div id="workoutResult" class="mt-6 hidden">
+          <h3 class="text-xl font-semibold mb-3 text-gray-800">Your Custom Workout Plan</h3>
+          <ul id="workoutList" class="space-y-2 mb-4"></ul>
+          <button onclick="addWorkoutToPlanner()" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out w-full">
+            Add Workout to Planner
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section id="about-section" class="py-12 bg-gray-100">
     <div class="container mx-auto">
@@ -164,8 +185,8 @@
           <div class="h-full bg-cover bg-center rounded-lg" style="background-image: url('images/about.jpg');"></div>
         </div>
         <div class="w-full lg:w-1/2 pl-0 lg:pl-12 mt-8 lg:mt-0">
-          <h2 class="text-3xl font-bold mb-4">About Women.Training</h2>
-          <p class="text-gray-600 mb-4">Women.Training is dedicated to empowering women through fitness. We believe in providing a supportive and inclusive community where women of all fitness levels can thrive. Our expert coaches and comprehensive programs are designed to help you achieve your personal fitness goals and maintain a healthy lifestyle.</p>
+          <h2 class="text-3xl font-bold mb-4">About WomenTraining</h2>
+          <p class="text-gray-600 mb-4">WomenTraining is dedicated to empowering women through fitness. We believe in providing a supportive and inclusive community where women of all fitness levels can thrive. Our expert coaches and comprehensive programs are designed to help you achieve your personal fitness goals and maintain a healthy lifestyle.</p>
           <p class="text-gray-600 mb-4">Our mission is to inspire and motivate women to take charge of their health and wellness. Join us today and be part of a community that celebrates every step of your fitness journey.</p>
         </div>
       </div>
@@ -184,10 +205,9 @@
           <h3 class="text-2xl font-bold mb-2">Rainey</h3>
           <p class="text-gray-600 mb-4">Owner/Head Coach</p>
           <ul class="flex justify-center space-x-4">
-            <li><a href="#" class="text-purple-700"><i class="lucide icon icon-twitter"></i></a></li>
-            <li><a href="#" class="text-purple-700"><i class="lucide icon icon-facebook"></i></a></li>
-            <li><a href="#" class="text-purple-700"><i class="lucide icon icon-google-plus"></i></a></li>
-            <li><a href="#" class="text-purple-700"><i class="lucide icon icon-instagram"></i></a></li>
+            <li><a href="#" class="text-purple-700"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="text-purple-700"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="text-purple-700"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
         <div class="p-6 bg-gray-100 rounded-lg shadow-md text-center">
@@ -195,7 +215,7 @@
           <h3 class="text-2xl font-bold mb-2">Philly Aime</h3>
           <p class="text-gray-600 mb-4">Yoga Teacher & Hula Hooper</p>
           <ul class="flex justify-center space-x-4">
-            <li><a href="https://instagram.com/phillyaime" class="text-purple-700" target="_blank"><i class="lucide icon icon-instagram"></i></a></li>
+            <li><a href="https://instagram.com/phillyaime" class="text-purple-700" target="_blank"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
         <div class="p-6 bg-gray-100 rounded-lg shadow-md text-center">
@@ -208,10 +228,9 @@
           <h3 class="text-2xl font-bold mb-2">Alicia Henderson</h3>
           <p class="text-gray-600 mb-4">Coach</p>
           <ul class="flex justify-center space-x-4">
-            <li><a href="#" class="text-purple-700"><i class="lucide icon icon-twitter"></i></a></li>
-            <li><a href="#" class="text-purple-700"><i class="lucide icon icon-facebook"></i></a></li>
-            <li><a href="#" class="text-purple-700"><i class="lucide icon icon-google-plus"></i></a></li>
-            <li><a href="#" class="text-purple-700"><i class="lucide icon icon-instagram"></i></a></li>
+            <li><a href="#" class="text-purple-700"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="text-purple-700"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="text-purple-700"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
@@ -278,37 +297,19 @@
     </div>
   </section>
 
-  <section id="map-section" class="py-12">
-    <div id="map" class="w-full h-64 bg-gray-200"></div>
-  </section>
-
-  <section id="gallery-section" class="py-12 bg-gray-100">
-    <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-8">See the Latest Photos</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div class="h-64 bg-cover bg-center rounded-lg" style="background-image: url('images/gallery-1.jpg');"></div>
-        <div class="h-64 bg-cover bg-center rounded-lg" style="background-image: url('images/gallery-2.jpg');"></div>
-        <div class="h-64 bg-cover bg-center rounded-lg" style="background-image: url('images/gallery-3.jpg');"></div>
-        <div class="h-64 bg-cover bg-center rounded-lg" style="background-image: url('images/gallery-4.jpg');"></div>
-      </div>
-    </div>
-  </section>
-
   <footer class="bg-purple-700 text-white py-8">
     <div class="container mx-auto text-center">
-      <h2 class="text-2xl font-bold">About <a href="index.html" class="text-white">Women.Training</a></h2>
+      <h2 class="text-2xl font-bold">About <a href="index.html" class="text-white">WomenTraining</a></h2>
       <p class="mt-4">Helping women reach their training goals.</p>
       <ul class="flex justify-center space-x-4 mt-4">
-        <li><a href="#" class="text-white"><i class="lucide icon icon-twitter"></i></a></li>
-        <li><a href="#" class="text-white"><i class="lucide icon icon-facebook"></i></a></li>
-        <li><a href="#" class="text-white"><i class="lucide icon icon-instagram"></i></a></li>
+        <li><a href="#" class="text-white"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" class="text-white"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" class="text-white"><i class="fa fa-instagram"></i></a></li>
       </ul>
-      <p class="mt-4">&copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="lucide icon icon-heart text-red-500"></i> by <a href="https://colorlib.com" target="_blank" class="text-white">Colorlib</a></p>
+      <p class="mt-4">&copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart text-red-500" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-white">Colorlib</a></p>
     </div>
   </footer>
 
-  <script src="https://togetherjs.com/togetherjs-min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.10.0/lucide.min.js"></script>
   <script>
     const scheduleData = {
       "Monday": [
@@ -329,114 +330,7 @@
           "video": "https://www.youtube.com/embed/v7AYKMP6rOE"
         }
       ],
-      "Tuesday": [
-        {
-          "time": "08:00AM - 10:00AM",
-          "title": "Body Building",
-          "description": "Strength training session to build muscle.",
-          "coach": "Jason Davis",
-          "position": "Body Building",
-          "video": "https://www.youtube.com/embed/2tMI9iDCgnQ"
-        },
-        {
-          "time": "10:00AM - 11:00AM",
-          "title": "Cardio Classes",
-          "description": "Intense cardio workout to burn calories.",
-          "coach": "Jason Davis",
-          "position": "Body Building",
-          "video": "https://www.youtube.com/embed/ml6cT4AZdqI"
-        }
-      ],
-      "Wednesday": [
-        {
-          "time": "08:00AM - 10:00AM",
-          "title": "Aerobic Program",
-          "description": "Fun and energetic aerobic session.",
-          "coach": "Mark Harlem",
-          "position": "Health Expert",
-          "video": "https://www.youtube.com/embed/GHD7Z19vtLw"
-        },
-        {
-          "time": "10:00AM - 11:00AM",
-          "title": "Basic Exercise",
-          "description": "A basic workout session for all levels.",
-          "coach": "Mark Harlem",
-          "position": "Health Expert",
-          "video": "https://www.youtube.com/embed/1EwYLZmkUxo"
-        }
-      ],
-      "Thursday": [
-        {
-          "time": "08:00AM - 10:00AM",
-          "title": "Yoga Classes",
-          "description": "Deep stretching and relaxation yoga class.",
-          "coach": "Nikki Valdez",
-          "position": "Yoga Expert",
-          "video": "https://www.youtube.com/embed/4pKly2JojMw"
-        },
-        {
-          "time": "11:00AM - 12:00PM",
-          "title": "Cardio Classes",
-          "description": "High-energy cardio workout.",
-          "coach": "Nikki Valdez",
-          "position": "Yoga Expert",
-          "video": "https://www.youtube.com/embed/5if4cjO5nxo"
-        }
-      ],
-      "Friday": [
-        {
-          "time": "08:00AM - 10:00AM",
-          "title": "Fitness Program",
-          "description": "A complete fitness program to end the week strong.",
-          "coach": "Troy Watson",
-          "position": "Boxing Trainer",
-          "video": "https://www.youtube.com/embed/C_CGxoj-LiM"
-        },
-        {
-          "time": "10:00AM - 11:00AM",
-          "title": "Body Building",
-          "description": "Building muscle with effective exercises.",
-          "coach": "Troy Watson",
-          "position": "Boxing Trainer",
-          "video": "https://www.youtube.com/embed/8tq8f71Fq3g"
-        }
-      ],
-      "Saturday": [
-        {
-          "time": "08:00AM - 10:00AM",
-          "title": "Yoga Classes",
-          "description": "Weekend yoga to refresh your body and mind.",
-          "coach": "Greg Mueller",
-          "position": "Dance Expert",
-          "video": "https://www.youtube.com/embed/OQ6NfFIr2jw"
-        },
-        {
-          "time": "10:00AM - 11:00AM",
-          "title": "Cardio Classes",
-          "description": "Boost your energy with cardio exercises.",
-          "coach": "Greg Mueller",
-          "position": "Dance Expert",
-          "video": "https://www.youtube.com/embed/LrGdxROUQI4"
-        }
-      ],
-      "Sunday": [
-        {
-          "time": "08:00AM - 10:00AM",
-          "title": "Crossfit Program",
-          "description": "Challenging Crossfit exercises for all levels.",
-          "coach": "Jesh Stone",
-          "position": "Muscle Expert",
-          "video": "https://www.youtube.com/embed/ml6cT4AZdqI"
-        },
-        {
-          "time": "10:00AM - 11:00AM",
-          "title": "Body Building",
-          "description": "Strength training to build muscle.",
-          "coach": "Jesh Stone",
-          "position": "Muscle Expert",
-          "video": "https://www.youtube.com/embed/xohvQNbc9ew"
-        }
-      ]
+      // ... (other days' data)
     };
 
     const blogPostsData = [
@@ -447,20 +341,7 @@
         "image": "images/image_1.jpg",
         "link": "blog-1.html"
       },
-      {
-        "date": "April 04, 2019",
-        "title": "10 Ways to Make Exercise a Habit",
-        "description": "Consistency in exercise is critical to better health.",
-        "image": "images/image_2.jpg",
-        "link": "blog-2.html"
-      },
-      {
-        "date": "Feb 24, 2020",
-        "title": "Why Eating Healthily is Key for Personal Fitness",
-        "description": "Diet is 80% of the work.",
-        "image": "images/image_3.jpg",
-        "link": "blog-3.html"
-      }
+      // ... (other blog posts)
     ];
 
     document.addEventListener("DOMContentLoaded", function() {
@@ -469,9 +350,7 @@
       const scheduleContent = document.getElementById('schedule-content');
       const blogPosts = document.getElementById('blog-posts');
       const now = new Date();
-      const currentDay = days[now.getDay() - 1]; // Adjusting for 0-indexed getDay()
-
-      console.log(`Current day is: ${currentDay}`);
+      const currentDay = days[now.getDay() - 1];
 
       days.forEach(day => {
         const dayTab = document.createElement('button');
@@ -487,7 +366,6 @@
       });
 
       function showSchedule(day) {
-        console.log(`Showing schedule for: ${day}`);
         scheduleContent.innerHTML = '';
         const daySchedule = scheduleData[day];
         daySchedule.forEach(classInfo => {
@@ -528,6 +406,95 @@
         blogPosts.appendChild(postDiv);
       });
     });
+
+    // Workout Planner functionality
+    document.getElementById('workoutForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const workoutName = document.getElementById('workoutName').value;
+      const exerciseCount = parseInt(document.getElementById('exerciseCount').value);
+      
+      try {
+        const response = await fetch('http://localhost:8080/calculate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ itemsOrdered: exerciseCount }),
+        });
+        const result = await response.json();
+        
+        const workoutList = document.getElementById('workoutList');
+        workoutList.innerHTML = '';
+        Object.entries(result.packs).forEach(([size, count]) => {
+          const li = document.createElement('li');
+          li.className = 'flex justify-between items-center bg-white p-3 rounded-md shadow';
+          li.innerHTML = `
+            <span>${size} exercise pack</span>
+            <span class="bg-purple-500 text-white px-3 py-1 rounded-full">${count}</span>
+          `;
+          workoutList.appendChild(li);
+        });
+
+        document.getElementById('workoutResult').classList.remove('hidden');
+      } catch (error) {
+        console.error('Error calculating workout packs:', error);
+        alert('Error creating workout. Please try again.');
+      }
+    });
+
+    function addWorkoutToPlanner() {
+      const workoutName = document.getElementById('workoutName').value;
+      alert(`Workout "${workoutName}" added to your planner!`);
+      // Here you would typically send this data to the server to save in the user's planner
+      document.getElementById('workoutForm').reset();
+      document.getElementById('workoutResult').classList.add('hidden');
+    }
   </script>
+    <script>
+        // ... (previous code remains the same)
+    
+        // Workout Planner functionality
+        document.getElementById('workoutForm').addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const workoutName = document.getElementById('workoutName').value;
+          const workoutDuration = parseInt(document.getElementById('workoutDuration').value);
+          
+          try {
+            const response = await fetch('http://localhost:8080/create-workout', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ duration: workoutDuration }),
+            });
+            const result = await response.json();
+            
+            const workoutList = document.getElementById('workoutList');
+            workoutList.innerHTML = '';
+            Object.entries(result.workout).forEach(([intensity, duration]) => {
+              const li = document.createElement('li');
+              li.className = 'flex justify-between items-center bg-white p-3 rounded-md shadow';
+              li.innerHTML = `
+                <span>${intensity} intensity</span>
+                <span class="bg-purple-500 text-white px-3 py-1 rounded-full">${duration} minutes</span>
+              `;
+              workoutList.appendChild(li);
+            });
+    
+            document.getElementById('workoutResult').classList.remove('hidden');
+          } catch (error) {
+            console.error('Error creating workout plan:', error);
+            alert('Error creating workout plan. Please try again.');
+          }
+        });
+    
+        function addWorkoutToPlanner() {
+          const workoutName = document.getElementById('workoutName').value;
+          alert(`Workout "${workoutName}" added to your planner!`);
+          // Here you would typically send this data to the server to save in the user's planner
+          document.getElementById('workoutForm').reset();
+          document.getElementById('workoutResult').classList.add('hidden');
+        }
+      </script>
 </body>
 </html>
